@@ -41,7 +41,12 @@ terraform apply
 ```
 
 ### Passo 2 
-cd terraform/environment/deploy 
+```bash
+cd terraform/environment/deploy
 terraform init
 terraform plan
 terraform apply
+```
+
+### Obs
+Não foi configurado um backend para o tfstate remoto para facilitar a execução local.
